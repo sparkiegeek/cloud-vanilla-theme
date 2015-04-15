@@ -1,0 +1,14 @@
+////
+/// @author       Web Team at Canonical Ltd
+/// @link         http://ubuntudesign.github.io/cloud-vanilla-theme/docs/#cloud-rows
+/// @since        0.0.3
+////
+
+/// Rows classes
+/// @group Utils
+@mixin cloud-rows {
+  .row {
+    border-bottom: 0;
+    background-color: rgba(255, 255, 255, .6);
+  }
+}
