@@ -3,11 +3,7 @@
 @import 'global-settings';
 
 // import required files
-@import '../../../node_modules/vanilla-framework/scss/vanilla';
-
-/// ubuntu element styles
-@import 'modules/arrows';
-@import 'modules/boxes';
+@import '../node_modules/vanilla-framework/scss/vanilla';
 
 @mixin ubuntu-vanilla-theme {
   @include vanilla;
