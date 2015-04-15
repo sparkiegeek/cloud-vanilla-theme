@@ -11,6 +11,4 @@
 
 @mixin ubuntu-vanilla-theme {
   @include vanilla;
-  @include ubuntu-arrows;
-  @include ubuntu-boxes;
 }
