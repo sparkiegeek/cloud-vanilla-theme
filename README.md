@@ -1,1 +1,1 @@
-# Ubuntu theme for vanilla framework
+# Cloud theme for vanilla framework

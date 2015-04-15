@@ -1,7 +1,7 @@
 {
-  "name": "ubuntu-vanilla-theme",
+  "name": "cloud-vanilla-theme",
   "version": "0.0.1",
-  "description": "A Ubuntu flavoured theme for the wonderfully simple, extendable CSS framework.",
+  "description": "A Cloud flavoured theme for the wonderfully simple, extendable CSS framework.",
   "author": {
     "name": "Canonical Webteam",
     "email": "webteam@canonical.com",
@@ -38,6 +38,7 @@
     }
   ],
   "keywords": [
+    "cloud",
     "ubuntu",
     "vanilla",
     "framework",
@@ -48,7 +49,7 @@
     "module"
   ],
   "bugs": {
-    "url" : "http://github.com/ubuntudesign/ubuntu-vanilla-theme/issues",
+    "url" : "http://github.com/ubuntudesign/cloud-vanilla-theme/issues",
     "email": "webteam@canonical.com"
   },
   "license" : "LGPL-3.0",
@@ -58,7 +59,7 @@
   },
   "repository": {
   "type" : "git",
-  "url" : "https://github.com/ubuntudesign/ubuntu-vanilla-theme"
+  "url" : "https://github.com/ubuntudesign/cloud-vanilla-theme"
   },
   "devDependencies": {
     "gulp": "^3.8.11",
