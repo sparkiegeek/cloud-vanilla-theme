@@ -1,6 +1,6 @@
 {
   "name": "cloud-vanilla-theme",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A Cloud flavoured theme for the wonderfully simple, extendable CSS framework.",
   "author": {
     "name": "Canonical Webteam",
@@ -74,6 +74,6 @@
     "gulp-util": "^3.0.4"
   },
   "dependencies": {
-     "vanilla-framework": "^0.0.11"
+     "vanilla-framework": "^0.0.12"
   }
 }
