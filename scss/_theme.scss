@@ -8,9 +8,13 @@
 /// cloud element styles
 @import 'modules/base';
 @import 'modules/rows';
+@import 'modules/buttons';
+@import 'modules/strips';
 
-@mixin ubuntu-vanilla-theme {
+@mixin cloud-vanilla-theme {
   @include vanilla;
   @include cloud-base;
   @include cloud-rows;
+	@include cloud-buttons;
+	@include cloud-strips;
 }
