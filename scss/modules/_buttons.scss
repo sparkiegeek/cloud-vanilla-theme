@@ -1,0 +1,13 @@
+////
+/// @author       Web Team at Canonical Ltd
+/// @link         http://ubuntudesign.github.io/cloud-vanilla-theme/docs/#cloud-base
+/// @since        0.0.3
+////
+
+/// Button classes
+/// @group Utils
+@mixin cloud-buttons {
+  .button--primary {
+    @include vf-button($white, $button-primary-color, null)
+  }
+}
