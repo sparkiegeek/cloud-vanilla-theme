@@ -1,0 +1,39 @@
+////
+/// @author       Web Team at Canonical Ltd
+/// @link         http://ubuntudesign.github.io/vanilla-framework/docs/#mixin-vf-header
+/// @since        0.0.3
+////
+
+/// Cloud header styling
+/// @group header
+@mixin cloud-header {
+  // scss-lint:disable NestingDepth
+  .banner {
+
+    .nav-primary {
+
+      ul {
+
+        li {
+
+          a:link,
+          a:visited {
+            padding: 14px 14px 10px;
+            box-sizing: border-box;
+            float: left;
+          }
+
+          a.active {
+            border-bottom: 3px solid $button-primary-color;
+
+            @media only screen and (max-width : $breakpoint-medium) {
+              border-bottom: 1px solid #CCC;
+              background-color: #DDD;
+            }
+          }
+        }
+      }
+    }
+  }
+  // scss-lint:enable NestingDepth
+} // @mixin vf-header
