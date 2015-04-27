@@ -7,14 +7,20 @@
 
 /// cloud element styles
 @import 'modules/base';
-@import 'modules/rows';
 @import 'modules/buttons';
+@import 'modules/footer';
+@import 'modules/header';
+@import 'modules/rows';
 @import 'modules/strips';
+@import 'modules/typography';
 
 @mixin cloud-vanilla-theme {
   @include vanilla;
   @include cloud-base;
+  @include cloud-buttons;
+  @include cloud-header;
+  @include cloud-footer;
   @include cloud-rows;
-	@include cloud-buttons;
-	@include cloud-strips;
+  @include cloud-strips;
+  @include cloud-typography;
 }
