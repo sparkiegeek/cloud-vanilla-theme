@@ -16,19 +16,21 @@
 
         li {
 
-          a:link,
-          a:visited {
-            padding: 14px 14px 10px;
-            box-sizing: border-box;
-            float: left;
-          }
+          a {
+            &:link,
+            &:visited {
+              padding: 14px 14px 10px;
+              box-sizing: border-box;
+              float: left;
+            }
 
-          a.active {
-            border-bottom: 3px solid $button-primary-color;
+            &.active {
+              border-bottom: 3px solid $button-primary-color;
 
-            @media only screen and (max-width : $breakpoint-medium) {
-              border-bottom: 1px solid #CCC;
-              background-color: #DDD;
+              @media only screen and (max-width : $breakpoint-medium) {
+                border-bottom: 1px solid $silver;
+                background-color: $grey;
+              }
             }
           }
         }
