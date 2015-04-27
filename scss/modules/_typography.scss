@@ -1,0 +1,13 @@
+////
+/// @author       Web Team at Canonical Ltd
+/// @link         http://ubuntudesign.github.io/cloud-vanilla-theme/docs/#cloud-base
+/// @since        0.0.6
+////
+
+/// Cloud typographic element styles
+/// @group Typography
+@mixin cloud-typography {
+  pre {
+    background-color: $white;
+  }
+}
