@@ -8,8 +8,10 @@
 /// cloud element styles
 @import 'modules/base';
 @import 'modules/buttons';
+@import 'modules/documentation';
 @import 'modules/footer';
 @import 'modules/header';
+@import 'modules/instructions';
 @import 'modules/rows';
 @import 'modules/strips';
 @import 'modules/typography';
@@ -18,8 +20,10 @@
   @include vanilla;
   @include cloud-base;
   @include cloud-buttons;
+  // @include cloud-documentation;
   @include cloud-header;
   @include cloud-footer;
+  @include cloud-instructions;
   @include cloud-rows;
   @include cloud-strips;
   @include cloud-typography;
