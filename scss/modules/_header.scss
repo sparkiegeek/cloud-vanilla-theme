@@ -9,28 +9,60 @@
 @mixin cloud-header {
   // scss-lint:disable NestingDepth
   .banner {
+    background: $black;
+    border-bottom: 0;
+    box-shadow: 0;
+
+    @media only screen and (min-width: $navigation-threshold) {
+      border-bottom: 0;
+      box-shadow: none;
+    }
 
     .nav-primary {
 
+      @media only screen and (min-width: $navigation-threshold) {
+        width: auto;
+      }
+
       ul {
+
+        @media only screen and (min-width: $navigation-threshold) {
+          border-top: 0;
+          border-right: 0;
+          box-shadow: none;
+        }
 
         li {
 
-          a {
-            &:link,
-            &:visited {
-              padding: 14px 14px 10px;
-              box-sizing: border-box;
-              float: left;
-            }
+          @media only screen and (min-width: $navigation-threshold) {
+            width: auto;
+            border-right: 0;
+            border-bottom: 0;
+            border-left: 1px solid $cool-grey;
 
-            &.active {
-              border-bottom: 3px solid $button-primary-color;
+            &:last-child {
+              border-right: 1px solid $cool-grey;
+              border-left: 1px solid $cool-grey;
 
-              @media only screen and (max-width : $breakpoint-medium) {
-                border-bottom: 1px solid $silver;
-                background-color: $grey;
+              a {
+                border-right: 0;
               }
+            }
+          }
+
+          @media only screen and (max-width: $navigation-threshold) {
+            &:nth-child(2n+2) {
+              border-right: 0;
+            }
+          }
+
+          a,
+          a:link,
+          a:visited {
+
+            @media only screen and (min-width: $navigation-threshold) {
+              border-left: 0;
+              color: $white;
             }
           }
         }
