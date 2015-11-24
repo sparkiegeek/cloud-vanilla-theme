@@ -7,10 +7,16 @@
 /// Cloud instruction styling
 /// @group header
 @mixin cloud-instructions {
+  $border-color:       #ddd !default;
+  $command-line-color: #2c001e !default;
+  $asset-path: 'https://assets.ubuntu.com';
+
 	// scss-lint:disable SelectorFormat
   .instruction {
     padding: 0;
-    border-bottom: 1px solid $light-grey;
+    position: relative;
+    width: 100%;
+    border-bottom: 1px dotted $border-color;
 
     .instruction__bullet,
     .instruction__details {
@@ -29,7 +35,6 @@
       width: $size;
       height: $size;
       line-height: $size;
-      background-color: $mid-grey;
       color: $white;
       text-align: center;
       vertical-align: top;
@@ -44,9 +49,41 @@
       line-height: 1.6;
     }
 
-    .instruction__details {
-      background-color: $light-grey;
+    .command-line {
+      position: relative;
+      border-radius: 4px;
+      background-color: $command-line-color;
+      border: 1px solid $command-line-color;
+      overflow: hidden;
+      transition: all .2s;
+
+      .command-line__input {
+        border: 0;
+        background: transparent;
+        font-size: 1em;
+        font-family: Ubuntu Mono;
+        font-weight: 300;
+        padding: .7em 1em;
+        color: $white;
+        width: 100%;
+      }
+
+      .command-line__copy-button {
+        transition: background-color .2s;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 50px;
+        border: 0;
+        height: 100%;
+        display: block;
+        text-indent: -9999px;
+        background-image: url('#{$asset-path}/v1/994e60f9-get-link-url_16.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: $white;
+      }
     }
-	}
+  }
 	// scss-lint:enable SelectorFormat
 }
