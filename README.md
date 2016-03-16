@@ -34,7 +34,4 @@ gulp build
 
 A demo of the theme and its elements is at ```/demo/index.html```
 
-
-
-
 Code licensed [LGPLv3](http://opensource.org/licenses/lgpl-3.0.html) by [Canonical Ltd.](http://www.canonical.com/).
