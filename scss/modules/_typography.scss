@@ -7,16 +7,12 @@
 /// Cloud typographic element styles
 /// @group Typography
 @mixin cloud-typography {
-  a {
-    &:link,
-    &:visited {
-      color: $button-primary-color;
-    }
-
-    &.button--primary:link,
-    &.button--primary:visited {
-      color: $white;
-    }
+  a,
+  %link,
+  .link {
+      cursor: pointer;
+      color: $cool-grey;
+      text-decoration: underline;
   }
 
   pre {
