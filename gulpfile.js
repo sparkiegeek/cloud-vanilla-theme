@@ -47,9 +47,7 @@ gulp.task('sass', function() {
         .pipe(autoprefixer('last 2 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1'))
         .pipe(gulp.dest('build/css/'))
         .pipe(rename({suffix: '.min'}))
-        .pipe(sourcemaps.init())
         .pipe(cssnano())
-        .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest('build/css/'));
 });
 
