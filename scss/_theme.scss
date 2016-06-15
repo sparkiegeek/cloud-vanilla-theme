@@ -11,6 +11,7 @@
 @import 'modules/cookie-policy';
 @import 'modules/deep-link';
 @import 'modules/footer';
+@import 'modules/forms';
 @import 'modules/header';
 @import 'modules/instructions';
 @import 'modules/rows';
@@ -27,6 +28,7 @@
   @include cloud-deep-link;
   @include cloud-header;
   @include cloud-footer;
+  @include cloud-forms;
   @include cloud-instructions;
   @include cloud-rows;
   @include cloud-strips;
