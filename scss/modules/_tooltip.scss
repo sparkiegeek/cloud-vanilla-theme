@@ -39,9 +39,10 @@
           border-radius: 3px;
           background: $black;
           box-shadow: none;
-          font-size: 12px;
+          font-size: 14px;
+          line-height: 1.3125em;
           content: attr(data-tooltip);
-          padding: 4px 6px;
+          padding: 11px 21px;
           white-space: nowrap;
           text-align: center;
         }
