@@ -14,6 +14,7 @@
 @import 'modules/forms';
 @import 'modules/header';
 @import 'modules/instructions';
+@import 'modules/lists';
 @import 'modules/rows';
 @import 'modules/strips';
 @import 'modules/social-list';
@@ -30,6 +31,7 @@
   @include cloud-footer;
   @include cloud-forms;
   @include cloud-instructions;
+  @include cloud-lists;
   @include cloud-rows;
   @include cloud-strips;
   @include cloud-social-list;
