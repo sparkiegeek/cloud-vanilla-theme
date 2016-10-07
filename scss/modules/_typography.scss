@@ -7,14 +7,6 @@
 /// Cloud typographic element styles
 /// @group Typography
 @mixin cloud-typography {
-  a,
-  %link,
-  .link {
-    cursor: pointer;
-    color: $link-color;
-    text-decoration: underline;
-  }
-
   pre {
     padding: 10px 15px;
     background-color: $cool-grey;
