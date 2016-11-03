@@ -7,17 +7,6 @@
 /// Cloud link element styles
 /// @group Links
 @mixin cloud-links {
-  a,
-  %link,
-  .link {
-    cursor: pointer;
-    color: $link-color;
-
-    &:hover {
-      text-decoration: underline;
-    }
-  }
-
   table,
   ul,
   ol,
@@ -59,7 +48,17 @@
 
   a,
   %link,
-  .link {
+  .link,
+  p a,
+  p .link {
+    cursor: pointer;
+    color: $link-color;
+    font-weight: 300;
+
+    &:hover {
+      text-decoration: underline;
+    }
+
     &.is-inverted {
       color: $white;
       font-weight: normal;
