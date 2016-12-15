@@ -4,7 +4,7 @@ A extenstion of [Vanilla framework](https://github.com/ubuntudesign/vanilla-fram
 
 ## Installing
 
-Install the Node package into your project:
+Install the Node package into your project with npm v3 or newer:
 
 ``` bash
 npm install cloud-vanilla-theme  # Installs the theme with the framework within
